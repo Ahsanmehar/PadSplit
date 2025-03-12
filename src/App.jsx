@@ -1,9 +1,12 @@
-import GoogleMap from "./GoogleMap";
+import RoomDescription from "./Pages/Room Description/RoomDescription";
+
+import MyGoogleMap from "./MyGoogleMap";
 
 function App() {
   return (
     <>
-      <GoogleMap />
+      <RoomDescription />
+      {/* <MyGoogleMap /> */}
     </>
   );
 }
