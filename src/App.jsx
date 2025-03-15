@@ -1,12 +1,11 @@
 import RoomDescription from "./Pages/Room Description/RoomDescription";
-
-import MyGoogleMap from "./MyGoogleMap";
+import AfterSearch from "./Pages/Room Description/AfterSearch";
 
 function App() {
   return (
     <>
       <RoomDescription />
-      {/* <MyGoogleMap /> */}
+      <AfterSearch />
     </>
   );
 }
